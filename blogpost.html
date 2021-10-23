@@ -1,0 +1,387 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>AlexCode</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--[if IE]>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js"></script>
+	<![endif]-->
+	<style>
+		@font-face {
+			font-display: swap;
+			font-family: "Ubuntu";
+			src: url(fonts/Ubuntu-Regular.woff2) format("woff2"),
+			url("fonts/Ubuntu-Regular.woff") format("woff");
+			font-style: normal;
+			font-weight: 400;
+		}
+		@font-face {
+			font-display: swap;
+			font-family: "Ubuntu";
+			src: url(fonts/Ubuntu-Medium.woff2) format("woff2"),
+			url("fonts/Ubuntu-Medium.woff") format("woff");
+			font-style: normal;
+			font-weight: 500;
+		}
+		@font-face {
+			font-display: swap;
+			font-family: "Ubuntu";
+			src: url(fonts/Ubuntu-Bold.woff2) format("woff2"),
+			url("fonts/Ubuntu-Bold.woff") format("woff");
+			font-style: normal;
+			font-weight: 700;
+		}
+		@font-face {
+			font-display: swap;
+			font-family: "Ubuntu";
+			src: url(fonts/Ubuntu-Light.woff2) format("woff2"),
+			url("fonts/Ubuntu-Light.woff") format("woff");
+			font-style: normal;
+			font-weight: 300;
+		}
+	</style>
+
+	<link rel="stylesheet" href="css/main.css" />
+
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="manifest" href="site.webmanifest">
+	<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+	
+	<div class="page">
+		
+		<!--header-->
+		<header>
+			<div class="container">
+				<div class="header-content-mobile">
+					<a href="" class="main-logo"><img src="images/main-logo.svg" alt=""></a>
+					<div class="header-buter"><img src="images/buter.svg" alt=""></div>
+				</div>
+				<div class="header-content">
+					<div class="tob-block">
+						<a href="" class="main-logo"><img src="images/main-logo.svg" alt=""></a>
+						<div class="header-close"><img src="images/close.svg" alt=""></div>
+					</div>
+					<ul class="header-menu">
+						<li><a href="" class="active">Home</a></li>
+						<li><a href="">About</a></li>
+						<li><a href="">Portfolio</a></li>
+						<li><a href="">Contact</a></li>
+					</ul>
+					<ul class="header-socials">
+						<li><a href=""><img src="images/telegram.svg" alt=""></a></li>
+						<li><a href="" class="git"><img src="images/github.svg" alt=""></a></li>
+						<li><a href="mailto:1alexvash@gmail.com"><img src="images/mail.svg" alt=""></a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<!--//header-->
+
+		<!--main-content-->
+		<div class="main-content">
+			
+			<div class="breadcrumbs-outer">
+				<div class="container">
+					<ul class="breadcrumbs">
+						<li><a href="">Home</a></li>
+						<li><span>How To Build Your Own Comment System Using Firebase</span></li>
+					</ul>
+				</div>
+			</div>
+
+			<!-- blogpost-section -->
+			<section class="blogpost-section">
+				<div class="container">
+					<div class="blogpost-outer">
+						<article class="blogpost-content">
+							<div class="blogpost-image"><img src="images/blogpost-pic.jpg" alt=""></div>
+							<div class="blogpost-date"><span>12/12/2021 14:45</span></div>
+							<h1>How To Build Your Own Comment System Using Firebase</h1>
+							<div class="tags">
+								<a href="">#Firebase</a>
+								<a href="">#React</a>
+								<a href="">#Typescript</a>
+							</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Placerat odio consequat enim sed gravida elit sed gravida. Eget vel orci id sit a. Quam molestie feugiat faucibus aliquam. Nisi aliquam nunc id cursus. Nibh neque, rutrum lacinia integer. Vitae posuere metus dictum ut ultrices venenatis adipiscing. Tempus, varius in quis sit nisl orci ipsum. Dui vel eget amet nisl. Tincidunt morbi purus, ut vestibulum mauris dis vitae ut nullam. Tempor ridiculus est diam massa tortor at vitae sit.</p>
+							<p>Libero potenti non, tristique pellentesque tincidunt risus in nunc. Rutrum est, dictumst elementum id nulla. Luctus aenean commodo leo et eget morbi adipiscing elit. Nunc viverra senectus ultrices fermentum. Phasellus vitae lorem platea lacus, ultricies. Mi arcu integer a mauris ut adipiscing egestas. Ornare morbi elementum eget at pellentesque tortor. Lectus augue lacinia malesuada aliquet risus nunc, eu gravida aliquam. Scelerisque vitae semper nunc et ut lorem at purus nunc. Maecenas est sit nibh proin malesuada auctor consectetur felis. Ultrices orci sit aliquam sed sit mus vel. Elit quam massa at urna congue suscipit eget faucibus quam. Viverra aliquet purus amet risus. Lectus tempor est eu ut odio gravida lorem cras nisi.</p>
+							<h3>What Is Firebase?</h3>
+							<p><a href="">Firebase</a> is a back end as a service that offers tools for app developers such as database, hosting, cloud functions, authentication, analytics, and storage.</p>
+							<p><a href="">Cloud Firestore</a> (Firebase’s database) is the functionality we will be using for this project. It is a NoSQL database. This means it’s not structured like a SQL database with rows, columns, and tables. You can think of it as a large JSON tree.</p>
+							<h3>How The Comments Section Works</h3>
+							<ul class="simple-list">
+								<li>log-post.js</li>
+								<li>Comments.js</li>
+								<li>CommentForm.js</li>
+								<li>Comment.js</li>
+							</ul>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Placerat odio consequat enim sed gravida elit sed gravida. Eget vel orci id sit a. Quam molestie feugiat faucibus aliquam. Nisi aliquam nunc id cursus. Nibh neque, rutrum lacinia integer. Vitae posuere metus dictum ut ultrices venenatis adipiscing. Tempus, varius in quis sit nisl orci ipsum. Dui vel eget amet nisl. Tincidunt morbi purus, ut vestibulum mauris dis vitae ut nullam. Tempor ridiculus est diam massa tortor at vitae sit.</p>
+							<p><strong>Libero potenti non, tristique pellentesque tincidunt risus in nunc.</strong> Rutrum est, dictumst elementum id nulla. Luctus aenean commodo leo et eget morbi adipiscing elit. Nunc viverra senectus ultrices fermentum. Phasellus vitae lorem platea lacus, ultricies. Mi arcu integer a mauris ut adipiscing egestas. Ornare morbi elementum eget at pellentesque tortor. Lectus augue lacinia malesuada aliquet risus nunc, eu gravida aliquam. Scelerisque vitae semper nunc et ut lorem at purus nunc. Maecenas est sit nibh proin malesuada auctor consectetur felis. Ultrices orci sit aliquam sed sit mus vel. Elit quam massa at urna congue suscipit eget faucibus quam. Viverra aliquet purus amet risus. Lectus tempor est eu ut odio gravida lorem cras nisi.</p>
+							<div class="blogpost-options">
+								<a href="" class="share">
+									<img src="images/share.svg" alt="">
+									Share
+								</a>
+								<div class="viewed">
+									<img src="images/eye.svg" alt="">
+									12587
+								</div>
+								<div class="blogpost-liked">
+									<a href="" class="like active">
+										<img src="images/like.svg" alt="">
+										874
+									</a>
+									<a href="" class="dislike">
+										<img src="images/dislike.svg" alt="">
+										3
+									</a>
+								</div>
+							</div>
+						</article>
+						<div class="related-posts">
+							<h2>Related posts</h2>
+							<div class="related-posts-block">
+								<a href="" class="image"><img src="images/related-posts-1.jpg" alt=""></a>
+								<div class="inner">
+									<a href="" class="name">Using SWR React Hooks With Next.js’ Incremental Static Regeneration (ISR)</a>
+									<div class="tags">
+										<a href="">#Firebase</a>
+										<a href="">#React</a>
+										<a href="">#Typescript</a>
+									</div>
+								</div>
+							</div>
+							<div class="related-posts-block">
+								<a href="" class="image"><img src="images/related-posts-2.jpg" alt=""></a>
+								<div class="inner">
+									<a href="" class="name">Client-Side Routing In Next.js</a>
+									<div class="tags">
+										<a href="">#Firebase</a>
+										<a href="">#React</a>
+									</div>
+								</div>
+							</div>
+							<div class="related-posts-block">
+								<a href="" class="image"><img src="images/related-posts-3.jpg" alt=""></a>
+								<div class="inner">
+									<a href="" class="name">Using SWR React Hooks With Next.js’ Incremental</a>
+									<div class="tags">
+										<a href="">#Firebase</a>
+									</div>
+								</div>
+							</div>
+							<div class="related-posts-block">
+								<a href="" class="image"><img src="images/related-posts-1.jpg" alt=""></a>
+								<div class="inner">
+									<a href="" class="name">Using SWR React Hooks With Next.js’ Incremental Static Regeneration (ISR)</a>
+									<div class="tags">
+										<a href="">#Firebase</a>
+										<a href="">#React</a>
+										<a href="">#Typescript</a>
+									</div>
+								</div>
+							</div>
+							<div class="related-posts-block">
+								<a href="" class="image"><img src="images/related-posts-2.jpg" alt=""></a>
+								<div class="inner">
+									<a href="" class="name">Client-Side Routing In Next.js</a>
+									<div class="tags">
+										<a href="">#Firebase</a>
+										<a href="">#React</a>
+									</div>
+								</div>
+							</div>
+							<div class="related-posts-block">
+								<a href="" class="image"><img src="images/related-posts-3.jpg" alt=""></a>
+								<div class="inner">
+									<a href="" class="name">Using SWR React Hooks With Next.js’ Incremental</a>
+									<div class="tags">
+										<a href="">#Firebase</a>
+									</div>
+								</div>
+							</div>
+							<div class="related-posts-block">
+								<a href="" class="image"><img src="images/related-posts-1.jpg" alt=""></a>
+								<div class="inner">
+									<a href="" class="name">Using SWR React Hooks With Next.js’ Incremental Static Regeneration (ISR)</a>
+									<div class="tags">
+										<a href="">#Firebase</a>
+										<a href="">#React</a>
+										<a href="">#Typescript</a>
+									</div>
+								</div>
+							</div>
+							<div class="related-posts-block">
+								<a href="" class="image"><img src="images/related-posts-2.jpg" alt=""></a>
+								<div class="inner">
+									<a href="" class="name">Client-Side Routing In Next.js</a>
+									<div class="tags">
+										<a href="">#Firebase</a>
+										<a href="">#React</a>
+									</div>
+								</div>
+							</div>
+							<div class="related-posts-block">
+								<a href="" class="image"><img src="images/related-posts-3.jpg" alt=""></a>
+								<div class="inner">
+									<a href="" class="name">Using SWR React Hooks With Next.js’ Incremental</a>
+									<div class="tags">
+										<a href="">#Firebase</a>
+									</div>
+								</div>
+							</div>
+							<div class="related-posts-block">
+								<a href="" class="image"><img src="images/related-posts-1.jpg" alt=""></a>
+								<div class="inner">
+									<a href="" class="name">Using SWR React Hooks With Next.js’ Incremental Static Regeneration (ISR)</a>
+									<div class="tags">
+										<a href="">#Firebase</a>
+										<a href="">#React</a>
+										<a href="">#Typescript</a>
+									</div>
+								</div>
+							</div>
+							<div class="related-posts-block">
+								<a href="" class="image"><img src="images/related-posts-2.jpg" alt=""></a>
+								<div class="inner">
+									<a href="" class="name">Client-Side Routing In Next.js</a>
+									<div class="tags">
+										<a href="">#Firebase</a>
+										<a href="">#React</a>
+									</div>
+								</div>
+							</div>
+							<div class="related-posts-block">
+								<a href="" class="image"><img src="images/related-posts-3.jpg" alt=""></a>
+								<div class="inner">
+									<a href="" class="name">Using SWR React Hooks With Next.js’ Incremental</a>
+									<div class="tags">
+										<a href="">#Firebase</a>
+									</div>
+								</div>
+							</div>
+							<div class="related-posts-block">
+								<a href="" class="image"><img src="images/related-posts-1.jpg" alt=""></a>
+								<div class="inner">
+									<a href="" class="name">Using SWR React Hooks With Next.js’ Incremental Static Regeneration (ISR)</a>
+									<div class="tags">
+										<a href="">#Firebase</a>
+										<a href="">#React</a>
+										<a href="">#Typescript</a>
+									</div>
+								</div>
+							</div>
+							<a href="" class="btn">See all posts</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- comments-section -->
+			<section class="simple-section gray-bg">
+				<div class="container">
+					<h2>Comments (4)</h2>
+					<div class="comments-outer">
+						<div class="comments-content">
+							<div class="comments-block">
+								<div class="top">
+									<div class="name">John</div>
+									<div class="date">12/12/2021 14:45</div>
+								</div>
+								<div class="text">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Placerat odio consequat enim sed gravida elit sed gravida. Eget vel orci id sit a. Quam molestie feugiat faucibus aliquam. Nisi aliquam nunc id cursus. Nibh neque, rutrum lacinia integer. Vitae posuere metus dictum ut ultrices venenatis adipiscing. Tempus, varius in quis sit nisl orci ipsum. Dui vel eget amet nisl. Tincidunt morbi purus, ut vestibulum mauris dis vitae ut nullam. Tempor ridiculus est diam massa tortor at vitae sit.</p>
+								</div>
+								<div class="bottom">
+									<a href="" class="reply">
+										<img src="images/reply.svg" alt="">
+										Reply
+									</a>
+								</div>
+							</div>
+							<div class="comments-block">
+								<div class="top">
+									<div class="name">Mike</div>
+									<div class="date">13/12/2021 17:45</div>
+								</div>
+								<div class="text">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Placerat odio consequat enim sed gravida elit sed gravida. Eget vel orci id sit a. Quam molestie feugiat faucibus aliquam. Nisi aliquam nunc id cursus. Nibh neque, rutrum lacinia integer.</p>
+								</div>
+								<div class="bottom">
+									<a href="" class="reply">
+										<img src="images/reply.svg" alt="">
+										Reply
+									</a>
+								</div>
+							</div>
+							<div class="comments-block replied">
+								<div class="top">
+									<div class="name">Andrew</div>
+									<div class="date">13/12/2021 18:45</div>
+								</div>
+								<div class="text">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Placerat odio consequat enim sed gravida elit sed gravida. Eget vel orci id sit a. Quam molestie feugiat faucibus aliquam. Nisi aliquam nunc id cursus. Nibh neque, rutrum lacinia integer.</p>
+								</div>
+							</div>
+							<div class="comments-block">
+								<div class="top">
+									<div class="name">John</div>
+									<div class="date">12/12/2021 14:45</div>
+								</div>
+								<div class="text">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Placerat odio consequat enim sed gravida elit sed gravida. Eget vel orci id sit a. Quam molestie feugiat faucibus aliquam. Nisi aliquam nunc id cursus. Nibh neque, rutrum lacinia integer. Vitae posuere metus dictum ut ultrices venenatis adipiscing. Tempus, varius in quis sit nisl orci ipsum. Dui vel eget amet nisl. Tincidunt morbi purus, ut vestibulum mauris dis vitae ut nullam. Tempor ridiculus est diam massa tortor at vitae sit.</p>
+								</div>
+								<div class="bottom">
+									<a href="" class="reply">
+										<img src="images/reply.svg" alt="">
+										Reply
+									</a>
+								</div>
+							</div>
+							<ul class="pagination">
+								<li><a href="" class="active">1</a></li>
+								<li><a href="">2</a></li>
+								<li><a href="">3</a></li>
+								<li><a href="">4</a></li>
+							</ul>
+						</div>
+						<form action="#" method="post" class="comments-form simple-form">
+							<h3>Leave a comment</h3>
+							<div class="input-block">
+								<textarea placeholder="Type anything..."></textarea>
+							</div>
+							<div class="input-block">
+								<input type="text" placeholder="Your name">
+							</div>
+							<button class="btn" type="submit">Post comment</button>
+						</form>
+					</div>
+				</div>
+			</section>
+
+		</div>
+		<!--//main-content-->
+
+		<footer>
+			<div class="container">
+				<div class="footer-content">
+					<div class="footer-logo"><img src="images/footer-logo.svg" alt=""></div>
+					<ul class="footer-socials">
+						<li><a href=""><img src="images/telegram.svg" alt=""></a></li>
+						<li><a href=""><img src="images/github-gray.svg" alt=""></a></li>
+						<li><a href="mailto:1alexvash@gmail.com"><img src="images/mail.svg" alt=""></a></li>
+					</ul>
+					<div class="copyright">&copy;2021 - Alex-code  <span class="divider">|</span>   All right reserved</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	
+</body>
+</html>
