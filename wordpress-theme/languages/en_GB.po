@@ -1,0 +1,294 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-11-20 19:57+0200\n"
+"PO-Revision-Date: 2021-11-20 20:06+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e;esc_attr__;esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: comments.php:16
+#, php-format
+msgid "Comments <small>(%s)</small>"
+msgstr "Comments <small>(%s)</small>"
+
+#: comments.php:31
+msgid "Ответить"
+msgstr "Reply"
+
+#: comments.php:50
+msgid "Leave a comment"
+msgstr "Leave a comment"
+
+#: comments.php:55
+msgid "Your name"
+msgstr "Your name"
+
+#: comments.php:56
+msgid "Your email"
+msgstr "Your email"
+
+#: comments.php:59
+msgid "Type anything..."
+msgstr "Type anything..."
+
+#: comments.php:61
+msgid "Post comment"
+msgstr "Post comment"
+
+#: customizer/control-terms.php:80
+msgid "Подходящие термы не найдены!"
+msgstr "No matching terms found!"
+
+#: customizer/panels.php:19
+msgid "Блоки темы"
+msgstr "Theme blocks"
+
+#: customizer/panels.php:30
+msgid "Шаблоны страниц"
+msgstr "Page templates"
+
+#: customizer/scripts.php:18
+msgid "Дополнительные скрипты"
+msgstr "Additional scripts"
+
+#: customizer/scripts.php:33
+msgid "Выводится перед закрывающим тегом HEAD"
+msgstr "Drawn before the closing HEAD tag"
+
+#: customizer/scripts.php:52
+msgid "Выводится в подвале сайта перед закрывающим тегом BODY"
+msgstr "Displayed in the footer of the site before the closing BODY tag"
+
+#: customizer/section-footer.php:15
+msgid "Подвал сайта"
+msgstr "Site footer"
+
+#: customizer/section-footer.php:33 customizer/section-intro.php:98
+msgid "Превью"
+msgstr "Превью"
+
+#: customizer/section-footer.php:56
+msgid "Копирайт (имя)"
+msgstr "Copyright (name)"
+
+#: customizer/section-footer.php:78
+msgid "Копирайт (описание)"
+msgstr "Copyright (description)"
+
+#: customizer/section-footer.php:99 customizer/section-header.php:32
+msgid "Использовать блок социальных сетей"
+msgstr "Use social media block"
+
+#: customizer/section-header.php:15
+msgid "Шапка сайта"
+msgstr "Site header"
+
+#: customizer/section-intro.php:15
+msgid "Об авторе"
+msgstr "About the author"
+
+#: customizer/section-intro.php:32
+msgid "Использовать секцию \"Об авторе\""
+msgstr "Use the section \"About the author\""
+
+#: customizer/section-intro.php:52
+msgid "Заголовок &lt;H1&gt;"
+msgstr "Title &lt;H1&gt;"
+
+#: customizer/section-intro.php:74
+msgid "Описание"
+msgstr "Description"
+
+#: customizer/section-intro.php:124
+msgid "Имя автора"
+msgstr "Author's name"
+
+#: customizer/section-intro.php:145
+msgid "Работа автора"
+msgstr "Author's work"
+
+#: customizer/socials.php:15
+msgid "Социальные сети и контакты"
+msgstr "Social networks and contacts"
+
+#: customizer/socials.php:16
+msgid ""
+"Используются в шапке и подвале сайта. В полях вводятся значения атрибут href."
+msgstr ""
+"Used in the header and footer of the site. The fields are filled with values "
+"for the href attribute."
+
+#: customizer/template-archive.php:15
+msgid "Архивы"
+msgstr "Archives"
+
+#: customizer/template-archive.php:16
+msgid "Настройки шаблона архивов, категорий, блога."
+msgstr "Settings for the template of archives, categories, blog."
+
+#: customizer/template-archive.php:33 customizer/template-singular.php:32
+msgid "Текст перед заголовком архива"
+msgstr "Text before archive header"
+
+#: customizer/template-archive.php:53
+msgid "Текст если посты не найдены"
+msgstr "Text if no posts were found"
+
+#: customizer/template-archive.php:74
+msgid "Список тегов"
+msgstr "Tag List"
+
+#: customizer/template-singular.php:15
+msgid "Постоянные страницы и посты"
+msgstr "Permanent pages and posts"
+
+#: header.php:30
+msgid "Buter icon"
+msgstr "Buter icon"
+
+#: header.php:38
+msgid "Close icon"
+msgstr "Close icon"
+
+#: includes/menus.php:15
+msgid "Main menu"
+msgstr "Main menu"
+
+#: includes/theme-activate.php:31
+msgid "Ничего не найдено"
+msgstr "Nothing found"
+
+#: includes/theme-activate.php:41
+msgid "Все права защищены"
+msgstr "All rights reserved"
+
+#: includes/theme-supports.php:29
+msgid "Telegram"
+msgstr "Telegram"
+
+#: includes/theme-supports.php:30
+msgid "GitHub"
+msgstr "GitHub"
+
+#: includes/theme-supports.php:31
+msgid "Email"
+msgstr "Email"
+
+#: index.php:42
+msgid "Все"
+msgstr "All"
+
+#: parts/blogpost-options.php:15 parts/blogpost-options.php:16
+msgid "Share"
+msgstr "Share"
+
+#: parts/blogpost-options.php:19
+msgid "views"
+msgstr "views"
+
+#: parts/blogpost-options.php:24
+msgid "Like"
+msgstr "Like"
+
+#: parts/blogpost-options.php:28
+msgid "Dislike"
+msgstr "Dislike"
+
+#: parts/breadcrumbs.php:17
+msgid "Home"
+msgstr "Home"
+
+#: parts/breadcrumbs.php:27
+msgid "Домашняя страница"
+msgstr "Home"
+
+#: parts/related-posts.php:24
+msgid "Related posts"
+msgstr "Related posts"
+
+#: parts/related-posts.php:30
+msgid "See all posts"
+msgstr "See all posts"
+
+#: search.php:19
+msgid "Результаты поиска"
+msgstr "Searching results"
+
+#: search.php:22
+msgid "Всего найдено:"
+msgstr "Total found:"
+
+#: search.php:28
+msgid "Список постов"
+msgstr "List of posts"
+
+#: searchform.php:14
+msgid "Поиск по сайту"
+msgstr "Site search"
+
+#: searchform.php:15
+msgid "Найти"
+msgstr "Find"
+
+#: views/entry-comment.php:20
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s at %2$s"
+
+#, php-format
+#~ msgid "Комментарии <small>(%s)</small>"
+#~ msgstr "Comments <small>(%s)</small>"
+
+#~ msgid "Оставить комментарий"
+#~ msgstr "Leave a comment"
+
+#~ msgid "Ваше имя"
+#~ msgstr "Your name"
+
+#~ msgid "Ваше email"
+#~ msgstr "Your email"
+
+#~ msgid "Введите что-нибудь..."
+#~ msgstr "Type anything..."
+
+#~ msgid "Главное меню"
+#~ msgstr "Main menu"
+
+#~ msgid "Поделиться"
+#~ msgstr "Share"
+
+#~ msgid "Просмотры"
+#~ msgstr "Views"
+
+#~ msgid "Лайк"
+#~ msgstr "Like"
+
+#~ msgid "Дизлайк"
+#~ msgstr "Dislike"
+
+#~ msgid "Посление запись"
+#~ msgstr "The last posts"
+
+#~ msgid "Посмотреть все"
+#~ msgstr "See all posts"
+
+#~ msgid "Ваш сайт"
+#~ msgstr "Your site"
+
+#~ msgid "Отправить"
+#~ msgstr "Post comment"
+
+#~ msgid "Главная"
+#~ msgstr "Home"
+
+#~ msgid "Мобильное меню"
+#~ msgstr "Mobile Menu"

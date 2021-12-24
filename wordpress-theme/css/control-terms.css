@@ -1,0 +1,26 @@
+.control-terms .inside {
+	overflow-x: hidden;
+	overflow-y: scroll;
+	max-height: 15rem;
+	border-radius: 4px;
+	border: 1px solid #8c8f94;
+	padding-left: 6px;
+	display: block;
+	background-color: rgba( 255, 255, 255, .25 );
+}
+.control-terms .inside ul ul {
+	padding-left: 1rem;
+	margin-top: 3px;
+}
+.control-terms .inside [type=checkbox] {
+	height: 1rem;
+	width: 1rem;
+}
+.control-terms .inside [type=checkbox]:checked::before {
+	width: 1rem;
+	height: 1rem;
+	margin: 0 -0.15rem;
+}
+.control-terms .inside [type=checkbox]:disabled + .title {
+	color: rgb( 206, 206, 206 );
+}
