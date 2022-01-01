@@ -4,7 +4,7 @@ This repo contains HTML/CSS code for my blog project
 
 ---
 
-[GitHub Pages](https://1alexvash.github.io/AlexCode/)
+[GitHub Pages](https://1alexvash.github.io/AlexCode/html-theme/)
 
 ---
 
